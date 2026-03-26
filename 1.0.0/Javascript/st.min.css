@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box
+}
+.simple-tabs {
+	line-height: 24px;
+	overflow-x: hidden;
+	width: 480px;
+	    overflow-y: hidden;
+    height: 600px;
+	position: relative;
+	border: 1px solid rgba(0,0,0,0.1)
+}
+.simple-tabs .headings {
+	width: 100%;
+	overflow-y: hidden;
+	
+	overflow-x: auto;
+	position: relative;
+	background: #FFF;
+	
+}
+.simple-tabs .headings ul {
+	padding: 0 0 3px;
+	margin: 0;
+	font-size: 0
+}
+.simple-tabs .headings li {
+	font-size: 13px;
+	display: inline-block;
+	text-align: center;
+	padding: 8px 27px;
+	
+	
+	text-decoration: none;
+	list-style: none;
+	color: #000;
+	border-bottom: 2px solid transparent;
+	opacity: 0.9;
+	cursor: pointer
+}
+.simple-tabs .headings li.active {
+	opacity: 1
+}
+
+.simple-tabs .headings .underline {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	background: #c70b30;
+}
+.simple-tabs .arrow {
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	bottom: 0;
+	width: 40px
+}
+
+.simple-tabs .content {
+	width: 480px;
+	
+	overflow-x: hidden;
+	
+	margin: 0;
+	padding-bottom: 8px;
+	line-height: normal
+}
+.simple-tabs .content .tabs {
+	min-height: 1px
+}
+.simple-tabs .content .tab {
+	float: left;
+	height: inherit;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	vertical-align: top;
+	padding: 0px
+}
+
+/*# sourceMappingURL=st.min.css.map */

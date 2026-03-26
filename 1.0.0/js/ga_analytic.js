@@ -1,0 +1,1 @@
+// Analytics remote script disabled for MV3 CSP compatibility.

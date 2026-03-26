@@ -1,0 +1,146 @@
+
+	.slb{background: #333333;}
+#contentContainer {
+	width: 480px;
+	height: 600px;
+	border: 0px black solid;
+	overflow: hidden;
+}
+#wrapper {
+	width: 480px;
+	position: relative;
+	left: 0px;
+	transition: left .5s ease-in-out;
+}
+.content {
+	float: left;
+	height: 600px;
+	white-space: normal;
+	width: 480px;
+	text-align: center;
+}
+.content p {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	opacity: .3;
+	font-size: 144px;
+	margin: 0;
+}
+#itemOne {
+	background: #333333;
+	background-image: url("//www.kirupa.com/images/blueSquare.png");
+}
+#itemTwo {
+	background: #333333;
+	background-image: url("//www.kirupa.com/images/yellowSquare.png");
+}
+#itemThree {
+	background: #333333;
+	background-image: url("//www.kirupa.com/images/pinkSquare.png");
+}
+#itemFour {
+	background: #333333;
+	background-image: url("//www.kirupa.com/images/graySquare.png");
+}
+#navLinks {
+	    margin-top: -47px;
+	text-align: center;
+	width: 480px;
+}
+#navLinks ul {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	margin-top: -31px;
+}
+#navLinks ul li {
+	float: left;
+	text-align: center;
+	margin: 10px;
+	list-style: none;
+	cursor: pointer;
+	background-color: #ffffff;
+	padding: 5px;
+	border-radius: 50%;
+	
+}
+#navLinks ul li:hover {
+	background-color: #FFFF00;
+}
+#navLinks ul li.active {
+	background-color: #717171;
+	color: #FFFFFF;
+	outline-width: 7px;
+}
+#navLinks ul li.active:hover {
+	background-color: #484848;
+	color: #FFFFFF;
+}
+.mySlides {
+	display: none
+}
+.slidebutton {
+	background-color: #545454;
+	border: none;
+	color: white;
+	padding: 16px 169px;
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 23px;
+	margin-top: 25%;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.sltxt1 {
+	font-size: 21px;
+	color: #fff;
+	font-family: arial;
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 100px;
+	line-height: 26px;
+	text-align: center;
+}
+.slskip1 {
+	font-size: 21px;
+	color: #fff;
+	font-family: arial;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.slimg {
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 25px;
+}
+.skip {
+	width: 95%;
+	color: #bfbfbf;
+	text-align: right;
+	margin-top: 20px;
+	text-decoration: none;
+	font-family: arial;
+}
+.skip a:link{
+	text-decoration: none;
+	color: #bfbfbf;}
+.skip a:visited{
+	text-decoration: none;
+	color: #bfbfbf;}
+	
+.slimgf{float: right;}
+	.slsbtn{ padding: 13px 26px; float: right; margin-top: 25%;}
+.lessmrg{
+	margin-top:8%;
+	}
+.lessmrg2{
+	margin-top:8%;
+	}
+.slbtn{ margin-top: 24%; padding: 12px 27px; float:right;}
+.clear{ clear:both;}
+.slbt{top: -9px; position: relative;}
+	.sldot{ z-index: 1000; position: relative; top: 20px;}
